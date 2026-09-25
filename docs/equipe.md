@@ -19,8 +19,8 @@ title: Équipe et rôles
 
 | Membre | Formation | Compte GitHub |
 |---|---|---|
-| Prénom Nom |Romain Dellieux| [@Rom102100](https://github.com/Rom102100) |
-| Prénom Nom |Emilien Roy | [@ayv33n](https://github.com/pseudo) |
+| Romain Dellieux|I2| [@Rom102100](https://github.com/Rom102100) |
+| Emilien Roy |I2| [@ayv33n](https://github.com/ayv33n) |
 
 ## Rôles
 
