@@ -1,4 +1,4 @@
-# Nom du projet
+# MACHINEKIDECINE
 
 > [!IMPORTANT]
 > **À modifier** : ce repo a été créé depuis le template de projet du MakerSpace d'Amiens.
