@@ -19,8 +19,8 @@ title: Équipe et rôles
 
 | Membre | Formation | Compte GitHub |
 |---|---|---|
-| Prénom Nom | … | [@pseudo](https://github.com/pseudo) |
-| Prénom Nom | … | [@pseudo](https://github.com/pseudo) |
+| Prénom Nom |Romain Dellieux| [@Rom102100](https://github.com/Rom102100) |
+| Prénom Nom |Emilien Roy | [@ayv33n](https://github.com/pseudo) |
 
 ## Rôles
 
