@@ -14,6 +14,8 @@ title: Études et choix techniques
 
 ## Recherche de l'existant
 
+
+
 {: .a_modifier }
 > Projets du MakerSpace des années précédentes, projets en ligne (Hackaday,
 > Instructables, GitHub…), produits du commerce : qu'est-ce qui fait déjà quelque

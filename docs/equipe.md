@@ -21,6 +21,8 @@ title: Équipe et rôles
 |---|---|---|
 | Romain Dellieux|I2| [@Rom102100](https://github.com/Rom102100) |
 | Emilien Roy |I2| [@ayv33n](https://github.com/ayv33n) |
+| Matheo Lemaitre-Leroy |I2| [@Phibusss] (https://github.com/Phibusss) |
+| Victor Fonte Nova Lamotte |I2| [@]
 
 ## Rôles
 

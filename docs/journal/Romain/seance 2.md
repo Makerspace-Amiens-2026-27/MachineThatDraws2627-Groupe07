@@ -1,16 +1,15 @@
 ---
 layout: default
-title: "2026-09-23 : découpe laser du boîtier"
-parent: Étudiant 1
+title: "2026-09-25 : seance 2"
+parent: Romain
 grand_parent: Journal de bord
 ---
 
-# 2026-09-23 : découpe laser du boîtier
+# 2026-09-25 : découpe laser du boîtier
 
-{: .a_supprimer }
-> Exemple de séance : supprimez ce fichier quand vous avez créé vos propres séances.
 
-**Séance :** planifiée · **Durée :** 2 h
+
+**Séance :** planifiée · **Durée :** 3 h
 
 ## Fait
 
