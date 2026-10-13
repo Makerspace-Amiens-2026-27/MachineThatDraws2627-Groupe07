@@ -1,26 +1,19 @@
 ---
 layout: default
-title: "2026-09-25 : seance 2"
+title: "2026-09-25 : absent"
 parent: Timote
 grand_parent: Journal de bord
 ---
 
-# 2026-09-25 : découpe laser du boîtier
-
-
+# 2026-09-25 : absent
 
 **Séance :** planifiée · **Durée :** 3 h
 
 ## Fait
 
-Découpe du boîtier en contreplaqué 3 mm. Premier assemblage à blanc.
-
-## Pourquoi
-
-Les encoches étaient trop serrées : ajout d'une compensation de 0,1 mm dans le
-fichier de découpe (réglage mesuré sur une chute).
+- Absent à cette séance.
+- Rattrapage via le repo GitHub et l'équipe : répartition des tâches et démontage d'une imprimante 3D pour s'inspirer de sa mécanique.
 
 ## Reste à faire
 
-- Redécouper la face avant avec la compensation.
-- Demander à l'équipe électronique l'emplacement définitif du connecteur USB.
+- Récupérer l'accès au repo GitHub de l'équipe.

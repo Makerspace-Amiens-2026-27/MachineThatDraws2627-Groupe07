@@ -5,9 +5,10 @@ parent: Journal de bord
 has_children: true
 ---
 
-# Étudiant 2
+# Timothé Froumentin
 
-{: .a_modifier }
-> Remplacez « Étudiant 2 » par votre prénom et votre nom, **dans le titre de la page
-> (`title:`) et dans le `parent:` de chacune de vos séances** : c'est ce qui
-> relie vos séances à votre page.
+Journal de bord individuel de Timothé Froumentin (I2) pour le projet **Machine That Draws** – équipe 07.
+
+**Rôle dans l'équipe :** responsable **mécanique** : système de déplacement XY, courroies et moteurs qui déplacent la structure portant le stylo.
+
+Une page par séance : ce qui a été fait, pourquoi, et ce qu'il reste à faire.
