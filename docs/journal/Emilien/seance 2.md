@@ -1,26 +1,25 @@
 ---
 layout: default
-title: "2026-09-25 : seance 2"
+title: "2026-09-25 : absent"
 parent: Emilien
 grand_parent: Journal de bord
 ---
 
-# 2026-09-25 : découpe laser du boîtier
-
-
+# 2026-09-25 : absent
 
 **Séance :** planifiée · **Durée :** 3 h
 
 ## Fait
 
-Découpe du boîtier en contreplaqué 3 mm. Premier assemblage à blanc.
+- Absent à cette séance (malade).
 
-## Pourquoi
+## Ce que l'équipe a fait pendant mon absence
 
-Les encoches étaient trop serrées : ajout d'une compensation de 0,1 mm dans le
-fichier de découpe (réglage mesuré sur une chute).
+- Répartition des tâches.
+- Démontage d'une imprimante 3D hors-service pour s'inspirer de sa mécanique, puis tri des pièces.
+- Recherche de l'existant sur le changement de couleur du stylo et le système d'écriture.
 
 ## Reste à faire
 
-- Redécouper la face avant avec la compensation.
-- Demander à l'équipe électronique l'emplacement définitif du connecteur USB.
+- Me mettre à jour avec l'équipe sur la répartition des tâches.
+- Examiner les pièces de l'imprimante 3D démontée.
