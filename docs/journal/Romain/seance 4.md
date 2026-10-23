@@ -29,10 +29,14 @@ Pieces manquantes :
 - support de courroie
 - rails et plateau                    
 
+Légende de la carte
 ## Pourquoi
 
 Pour avoir une liste de nos pièces et ce qu'il nous manque. 
+Pour savoir à quoi corresponde chaque composants 
 
+## Reste à faire
+- continuer les petits détailles des infos à avoir 
 
 
 ## Reste à faire

@@ -20,6 +20,7 @@ grand_parent: Journal de bord
 - Recherches sur les **vis CHC M3** : tête Ø 5,5 × 3 mm, donc un lamage d'environ Ø 6 à 6,5 mm sur 3,2 à 3,5 mm de profondeur.
 - **Support moteur, premier jet** : modélisé en 3D (disponible sur Onshape) et imprimé, surtout pour vérifier que les vis rentrent bien.
 - Suite du support : ajout des **trous pour visser le moteur** lui-même.
+- Suite à un manque de communication dans l'équipe, j'ai dû **refaire le modèle 3D du support**. La nouvelle pièce est imprimée : le premier jet est **nickel, sans défaut**.
 - Demande pour obtenir des **poulies de distribution** : c'est possible, il faut juste donner le nombre exact. J'en ai compté 8, mais Adrien Bracq m'a conseillé de revérifier, il y en a peut-être trop.
 
 ## Pourquoi
@@ -32,7 +33,7 @@ grand_parent: Journal de bord
 ## Reste à faire
 
 - Recompter les poulies nécessaires sur l'assemblage Onshape avant de faire la demande.
-- Imprimer et tester le support moteur avec les trous de fixation.
+- Monter le moteur sur le support imprimé pour valider la fixation.
 - Finir l'assemblage Onshape et vérifier que le chariot couvre bien tout l'A4 sans collision.
 - Tracer le chemin des courroies en esquisse pour confirmer la longueur (~1,40 à 1,50 m chacune).
 - Définir avec Mathéo la fixation du stylo sur le chariot.
