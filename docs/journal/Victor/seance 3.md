@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "2026-10-09 : séance 2"
+title: "2026-10-09 : séance 3"
 parent: Victor
 grand_parent: Journal de bord
 ---
