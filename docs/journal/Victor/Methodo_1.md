@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "2026-09-11 : seance 1"
+title: "2026-10-13 : seance 1"
 parent: Victor
 grand_parent: Journal de bord
 ---
 
-# 2026-09-11 : formation des groupes
+# 2026-10-13 : formation des groupes
 
 
 
