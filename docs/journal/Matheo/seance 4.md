@@ -14,8 +14,8 @@ grand_parent: Journal de bord
 ## Fait
 
 - recharche et solution pour le stylo et le changement d'outil.
-- mesure des composants
-- debut de la modelisation 3D de la base pour le stylo
+- mesure des composants.
+- debut de la modelisation 3D de la base pour le stylo (difficulte du au systeme de lock du block stylo).
 
 
 ## Pourquoi
