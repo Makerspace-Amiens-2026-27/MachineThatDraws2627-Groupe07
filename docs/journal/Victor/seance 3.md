@@ -15,7 +15,7 @@ grand_parent: Journal de bord
 
 j'ai examiné la mécanique utilisée dans les imprimantes 3d, la "BambuLab P1P" et la "BambuLab" "X1-Carbon", deux machines qui sont de type CoreXY*. 
 Nous avons également regardé ces vidéos instagram du créateur [placesbetweenlines.art](https://www.instagram.com/placesbetweenlines.art/) avec Timothé et Mathéo
-: https://www.instagram.com/p/DejnS1AICR0/ et https://www.instagram.com/p/DeuAa_XIlAu/.
+: [vidéo 1](https://www.instagram.com/p/DejnS1AICR0/) et [vidéo 2](https://www.instagram.com/p/DeuAa_XIlAu/).
 
 *_Le CoreXY est un système de déplacement pour les machines à commandes numérique (imprimante 3d par exemple). La tête d'impression se déplace sur le plan horizontal (axes X et Y), grâce à un système unique de deux courroies interconnectées et de deux moteurs fixes. Pour les imprimantes 3d étudiées, le plateau se déplace quant à lui, uniquement sur la verticale (axe Z)._ 
 
