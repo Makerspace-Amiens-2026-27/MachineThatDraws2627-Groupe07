@@ -7,20 +7,18 @@ grand_parent: Journal de bord
 
 # 2026-09-11 : formation des groupes
 
-
-
 **Séance :** planifiée · **Durée :** 3 h
 
 ## Fait
 
-- recherche et formation des groupes.
-- recherche de l'existant, machines I2 (2025-2026)
+- Formation des groupes.
+- Recherche de l'existant : machines à dessiner des I2 de l'an dernier (2025-2026).
 
 ## Pourquoi
 
-regarder les idées de ce qui a ou non fonctionné, les pieges a éviter, trouver des inspirations.
+Voir ce qui a fonctionné ou non, repérer les pièges à éviter et trouver des idées.
 
 ## Reste à faire
 
-- répartir les roles.
-- recherche d'idées.
+- Répartir les rôles dans l'équipe.
+- Chercher des idées de conception.

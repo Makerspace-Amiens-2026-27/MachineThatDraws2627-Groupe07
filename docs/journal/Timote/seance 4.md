@@ -1,33 +1,28 @@
 ---
 layout: default
-title: "2026-10-13 : recherche de l'existant"
+title: "2026-10-23 : modèle Onshape et dimensions"
 parent: Timote
 grand_parent: Journal de bord
 ---
 
-# 2026-10-13 : recherche de l'existant
+# 2026-10-23 : modèle Onshape et dimensions
 
 **Séance :** planifiée · **Durée :** 3 h
 
 ## Fait
 
-- Recherche de l'existant sur les machines à dessiner, côté mécanique (ma partie).
-- Repérage sur YouTube d'une machine à dessiner dont la conception me sert de référence : déplacement XY par courroies, sur le même principe que les imprimantes 3D ([voir la vidéo](https://www.youtube.com/watch?v=0zgMQy20ktg)).
+- Point sur les prochaines étapes de la mécanique : finir l'assemblage Onshape, vérifier les courroies, faire l'inventaire des pièces, puis fabriquer et monter.
+- Travail sur l'assemblage **Onshape** de la machine (système CoreXY).
+- Mesure de l'**entraxe des trous du plateau** dans Onshape (paramètre de la répétition linéaire) : **20 mm** dans les deux directions, avec 21 × 21 trous, soit une grille de **400 × 400 mm**.
 
 ## Pourquoi
 
-Ce type de conception a plusieurs avantages :
-
-- **mouvement précis et rapide** ;
-- **moteurs fixés à part**, sur le cadre et pas sur la partie mobile : la structure qui porte le stylo est plus légère, elle s'use moins et vibre moins.
-
-Points de vigilance :
-
-- il nous **manque probablement certaines pièces** : il faudra sans doute en **imprimer en 3D** ;
-- la **souplesse des courroies** (surtout sur ~1,50 m) peut nuire à la précision : il faudra prévoir un système de tension.
+- Connaître l'entraxe permet de placer le cadre, les supports moteur et les poulies sur les trous du plateau.
+- Le plateau est carré (400 mm) alors qu'une feuille A4 fait 297 × 210 mm : la course du chariot doit couvrir la zone A4 (plus une marge), pas tout le plateau.
 
 ## Reste à faire
 
+- Finir l'assemblage Onshape et vérifier que le chariot couvre bien tout l'A4 sans collision.
+- Tracer le chemin des courroies en esquisse pour confirmer la longueur (~1,40 à 1,50 m chacune).
+- Définir avec Mathéo la fixation du stylo sur le chariot.
 - Faire l'inventaire des pièces disponibles et lister celles à imprimer en 3D.
-- Choisir la façon de tendre les courroies.
-- Ajouter ces références à la page **Études** (`docs/etudes.md`) du projet.
