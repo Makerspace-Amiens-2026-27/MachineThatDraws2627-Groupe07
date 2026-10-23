@@ -5,7 +5,7 @@ parent: Romain
 grand_parent: Journal de bord
 ---
 
-# 2026-09-25 : découpe laser du boîtier
+# 2026-09-25 : Découverte du github et modification
 
 
 
@@ -13,14 +13,13 @@ grand_parent: Journal de bord
 
 ## Fait
 
-Découpe du boîtier en contreplaqué 3 mm. Premier assemblage à blanc.
+Modification sur des points du github (ajout des noms et des équipes, petits détails....)
 
 ## Pourquoi
 
-Les encoches étaient trop serrées : ajout d'une compensation de 0,1 mm dans le
-fichier de découpe (réglage mesuré sur une chute).
+Personnalisations nécessaires et certaines pour la personalisation du projet.
 
 ## Reste à faire
 
-- Redécouper la face avant avec la compensation.
-- Demander à l'équipe électronique l'emplacement définitif du connecteur USB.
+- Lecture complète du github.
+  
