@@ -12,7 +12,8 @@ grand_parent: Journal de bord
 ## Fait
 
 - **Recomptage des poulies** sur l'assemblage, comme Adrien Bracq me l'avait conseillé : il nous faut **6 poulies folles** et **2 poulies sur les moteurs**.
-- Lancement de l'**impression d'un support moteur** : elle est encore en cours au moment où j'écris.
+- **Impression d'un support moteur** et test sur le moteur : tout est bon, sauf les **trous du haut, qui ne sont pas alignés** avec ceux du moteur.
+- Correction du modèle 3D, à réimprimer pour la prochaine fois.
 
 ## Pourquoi
 
@@ -20,5 +21,5 @@ grand_parent: Journal de bord
 
 ## Reste à faire
 
-- Attendre la fin de l'impression et tester le support moteur dès que possible.
+- Réimprimer le support moteur corrigé et vérifier que tous les trous s'alignent avec le moteur.
 - Demander les poulies.
