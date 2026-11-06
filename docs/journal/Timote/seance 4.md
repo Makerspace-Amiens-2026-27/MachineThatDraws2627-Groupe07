@@ -23,6 +23,8 @@ grand_parent: Journal de bord
 - Suite à un manque de communication dans l'équipe, j'ai dû **refaire le modèle 3D du support**. La nouvelle pièce est imprimée : le premier jet est **nickel, sans défaut**.
 - Demande pour obtenir des **poulies de distribution** : c'est possible, il faut juste donner le nombre exact. J'en ai compté 8, mais Adrien Bracq m'a conseillé de revérifier, il y en a peut-être trop.
 
+![Support moteur imprimé]({{ '/assets/images/timothe-2026-10-23-support-moteur.jpg' | relative_url }}){: width="300" }
+
 ## Pourquoi
 
 - Connaître l'entraxe du plateau permet de placer le cadre, les supports moteur et les poulies sur ses trous.
