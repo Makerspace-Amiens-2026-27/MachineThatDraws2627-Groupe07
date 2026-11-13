@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "2026-10-23 : séance 4"
+title: "2026-11-06 : séance 5"
 parent: Victor
 grand_parent: Journal de bord
 ---
 
-# 2026-10-23 : Correctif Repository Github et étude de la carte électronique des axes.
+# 2026-10-23 : Étude de l'existant et nouvelle direction pour notre machine : "Vertical plotter"
 
 
 
@@ -13,15 +13,18 @@ grand_parent: Journal de bord
 
 ## Fait
 
-Cette séance a été majoritairement consacrée à un correctif de mon Repo. Github ainsi qu'à l'étude d'une carte électronique que nous devrons utiliser pour notre machine. 
-J'ai mené seul mon correctif Github car cela ne concernait que ma partie, l'étude électronique a été menée avec Romain.
-
-
+Avant cette séance, j'avais réalisé, de mon côté, quelques recherches sur les différentes technologies et mécaniques utilisées pour faire fonctionner une machine dessinatrice. 
+Mon attention a été attirée par un type de machine en particulier : les machines dessinatrices verticales sur un mur, comme la machine [Scribit](https://youtu.be/dgzE3wGxqFY?is=pHTwBN6UF7n6KWRa).
+J'ai regardé trois vidéos différentes sur la mécanique des "Vertical Plotter".
+À la recherche d'inspirations, j'ai visionné ces trois vidéos : 
+[vidéo 1](https://youtu.be/T0jwdrgVBBc?is=9FP3ja3b_uDqa3k-), [vidéo 2](https://youtu.be/uv7E8AKwWNM?is=XtQ3mGddSsINZsaV), [vidéo 3](https://youtu.be/APl9TBX9DCs?is=_gIOfF42irB8eTMY).
+La vidéo numéro 1 est celle qui a le plus retenu mon attention.
+J'en ai parlé à mon équipe et tous étaient d'accord pour travailler sur un vertical plotter, notre machine prendra donc cette trajectoire.
 
 ## Pourquoi
 
-La mise en ligne de mes écrits sur Github ont été compromises par un oubli de "Push", j'ai dû alors m'occuper de corriger cela avant que le problème ne s'éternise.
-Dans la logique de l'étude électronique de notre machine, j'ai voulu identifier les différentes parties de notre carte, trouver leur fonction dans le bon comportement de la machine.
+De façon à trouver une idée qui sort du moule et qui reste réalisable, nous avons étudié le vertical plotter avec mes camarades d'équipe.
+Selon Adrien Bracq, la dernière machine wall draw réalisée en projet date d'il y a 5 ans.
 
 ## Reste à faire
 
