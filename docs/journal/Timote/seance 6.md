@@ -104,10 +104,24 @@ Si les moteurs sont aussi sur la nacelle, on ajoute 2 × ~280 g, soit une nacell
 
 Ça devient **limite près du haut** du tableau. Le poids réel mesuré à la balance tranchera.
 
+## Mesure à la balance (option 3)
+
+On a pesé tous les composants de l'option 3 : **824 g**, sans la structure elle-même. En estimant la structure à environ **180 g**, on arrive à environ **1 kg** au total, soit **P ≈ 9,8 N**.
+
+Avec T = P / (2 sin θ) :
+
+| Angle θ | Tension par câble (P ≈ 9,8 N) | Verdict |
+|---|---|---|
+| 45° | ≈ **7 N** | OK |
+| 33° | ≈ **9 N** | Limite (force admissible avec la sécurité de 2) |
+| 15° | ≈ **19 N** | Maximum du moteur en mouvement : décrochage probable |
+
+**Conclusion :** l'option 3 est viable si les câbles restent **au-dessus de 33°** par rapport à l'horizontale. Il faut donc **éviter le tiers haut du tableau**, ou **alléger la nacelle** (mettre la batterie sur le cadre, imprimer avec un remplissage plus faible).
+
 ## Reste à faire
 
-- Récupérer le **poids mesuré** de tous les composants de l'option 3 et refaire le calcul avec la vraie valeur.
+- Peser la **structure réelle** une fois imprimée et refaire le calcul avec le poids exact.
 - **Choisir l'architecture** (1, 2 ou 3) en équipe, en tenant compte du poids et de la complexité.
 - Vérifier le **support moteur centré** une fois imprimé (centrage Ø 23 mm, entraxe 31 mm) sur un vrai NEMA 17.
 - Vérifier la **valeur réelle du couple de maintien** dans la fiche technique de nos moteurs (0,4 N·m est une hypothèse).
-- Définir la **zone de dessin utile** (ne pas descendre sous ~15° d'angle de câble en haut du tableau).
+- Définir la **zone de dessin utile** (câbles au-dessus de 33° par rapport à l'horizontale si on part sur l'option 3).
