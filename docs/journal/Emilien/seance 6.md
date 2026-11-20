@@ -96,6 +96,8 @@ grand_parent: Journal de bord
 - Si le poids est trop important avec la dernière solution, on pourrait **incliner le tableau** pour régler ce problème.
 - La totalité des composants, sans la base imprimée en 3D, pèse **824 g**.
 
+![Tableau : répartition des tâches par interface et pour / contre des solutions]({{ '/assets/images/emilien-2026-11-20-tableau.jpg' | relative_url }})
+
 ### Calcul : combien les 2 moteurs NEMA 17 au milieu peuvent porter
 
 Configuration : les 2 moteurs sont dans le bloc, écartés de 15 cm, et les courroies sont attachées à des points d'ancrage aux 2 coins hauts du tableau (147 cm de large).
