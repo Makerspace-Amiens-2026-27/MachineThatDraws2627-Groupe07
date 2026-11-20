@@ -94,6 +94,7 @@ grand_parent: Journal de bord
 | Un seul bloc, moteurs au milieu | Un seul bloc, pas de fils, plus d'équilibre | Poids (les moteurs supportent leur propre poids), place |
 
 - Si le poids est trop important avec la dernière solution, on pourrait **incliner le tableau** pour régler ce problème.
+- La totalité des composants, sans la base imprimée en 3D, pèse **824 g**.
 
 ## Pourquoi
 
