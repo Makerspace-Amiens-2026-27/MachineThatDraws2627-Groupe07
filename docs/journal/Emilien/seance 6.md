@@ -96,6 +96,60 @@ grand_parent: Journal de bord
 - Si le poids est trop important avec la dernière solution, on pourrait **incliner le tableau** pour régler ce problème.
 - La totalité des composants, sans la base imprimée en 3D, pèse **824 g**.
 
+### Calcul : combien les 2 moteurs NEMA 17 au milieu peuvent porter
+
+Configuration : les 2 moteurs sont dans le bloc, écartés de 15 cm, et les courroies sont attachées à des points d'ancrage aux 2 coins hauts du tableau (147 cm de large).
+
+**Méthode**
+
+1. Données : largeur du tableau W, écart entre les moteurs d, masse du bloc m, poids P = m × g, couple du moteur C, rayon de la poulie r.
+2. Couple utilisable en mouvement : C_utile = C_maintien × 0,30 / 2 (environ 30 % du couple de maintien quand le moteur tourne, puis coefficient de sécurité de 2).
+3. Force admissible par moteur : F_adm = C_utile / r.
+4. Angles des courroies (origine au point d'ancrage gauche, y mesuré vers le bas depuis le haut) pour un bloc centré en (x, y) :
+   - tan α₁ = y / (x − d/2)
+   - tan α₂ = y / (W − x − d/2)
+5. Équilibre du bloc :
+   - horizontalement : T₁ cos α₁ = T₂ cos α₂
+   - verticalement : T₁ sin α₁ + T₂ sin α₂ = P
+   - donc T₁ = P cos α₂ / sin(α₁ + α₂) et T₂ = P cos α₁ / sin(α₁ + α₂)
+6. Les deux points critiques :
+   - **en haut au centre** : les deux courroies sont presque horizontales, T = P / (2 sin α) devient très grand ;
+   - **près d'un bord** : une courroie est presque verticale, un seul moteur porte presque tout le poids, T ≈ P.
+7. Condition : la plus grande tension doit rester sous F_adm. On en déduit m_max, puis la charge en plus = m_max − masse du bloc.
+
+**Application (avec la batterie, 824 g)**
+
+1. Données : W = 1,47 m ; d = 0,15 m, donc d/2 = 0,075 m ; m = 0,824 kg, donc P = 0,824 × 9,81 = **8,08 N** ; poulie GT2 20 dents : r = (20 × 2 mm) / (2π) = **6,37 mm** ; moteur 17HE12-1204S : couple de maintien **0,26 N·m** (26 N·cm, fiche StepperOnline).
+2. C_utile = 0,26 × 0,30 / 2 = **0,039 N·m**.
+3. F_adm = 0,039 / 0,00637 = **6,1 N par moteur** (soit l'équivalent de 0,62 kg).
+4. Près d'un bord : T ≈ P = 8,1 N, au-dessus de 6,1 N : **ça ne tient pas**, il y a environ 200 g de trop.
+5. En haut au centre : tan α = y / (0,735 − 0,075) = y / 0,66. Il faut P / (2 sin α) ≤ 6,1 N, donc sin α ≥ 8,08 / 12,25 = 0,66, donc α ≥ 41,3°, donc y ≥ 0,66 × tan 41,3° = **0,58 m sous le haut**.
+6. Sans le coefficient de sécurité (F_adm = 12,25 N, soit 1,25 kg) :
+   - près d'un bord : 8,1 N < 12,25 N, **ça tient** ; charge en plus = 1,25 − 0,824 = **425 g maximum** (base imprimée comprise) ;
+   - en haut au centre : il faut dessiner à au moins **23 cm** sous le haut avec 824 g, et à au moins **38 cm** avec les 425 g en plus (à cet endroit α = 30°, et les deux points critiques donnent la même tension).
+
+### Même calcul sans la batterie (alimentation par câble)
+
+La batterie pèse **180 g** : sans elle, le bloc pèse 824 − 180 = **644 g**, donc P = 0,644 × 9,81 = **6,32 N**.
+
+1. Avec le coefficient de sécurité (F_adm = 6,1 N) :
+   - près d'un bord : T ≈ 6,3 N, encore un peu au-dessus de 6,1 N : **ça ne tient pas**, il reste environ 20 g de trop ;
+   - en haut au centre : sin α ≥ 6,32 / 12,25 = 0,52, donc α ≥ 31,0°, donc y ≥ 0,66 × tan 31,0° = **0,40 m sous le haut**.
+2. Sans le coefficient de sécurité (F_adm = 12,25 N) :
+   - près d'un bord : 6,3 N < 12,25 N, **ça tient** ; charge en plus = 1,25 − 0,644 = **605 g maximum** (base imprimée comprise) ;
+   - en haut au centre : il faut dessiner à au moins **18 cm** sous le haut avec 644 g, et à au moins **38 cm** si on ajoute les 605 g.
+
+**Bilan**
+
+| Cas | Avec sécurité × 2 | Sans coefficient de sécurité |
+|---|---|---|
+| Avec batterie (824 g) | Ne tient pas : environ 200 g de trop | 425 g en plus maximum ; dessiner à au moins 23 cm sous le haut |
+| Avec câble (644 g) | Ne tient pas : environ 20 g de trop | 605 g en plus maximum ; dessiner à au moins 18 cm sous le haut |
+
+- Point à vérifier : Timothé a pris un couple de 0,4 N·m. Si nos moteurs sont bien des 17HE12-1204S, le couple n'est que de 0,26 N·m (35 % de moins) : il faut vérifier la référence sur l'étiquette des moteurs.
+- Pour le tableau incliné : même calcul en remplaçant P par P × sin β, avec β l'angle entre le tableau et le sol.
+- Hypothèses : les courroies partent de l'axe des moteurs, le bloc ne pivote pas (centre de gravité au milieu), calcul à l'équilibre (sans accélération), poids du câble d'alimentation négligé.
+
 ## Pourquoi
 
 - Il fallait comprendre la nouvelle machine avant de reprendre ma partie : le changement de couleur.
@@ -107,7 +161,6 @@ grand_parent: Journal de bord
 
 ## Reste à faire
 
-- Calculer combien deux moteurs NEMA 17 peuvent porter en plus de leur propre poids, au point le plus critique.
 - Trancher avec Mathéo entre le barillet et le stylo 4 couleurs, puis l'écrire pour ne plus revenir dessus.
 - Dessiner le barillet dans Onshape : nombre de stylos, diamètre des stylos ou feutres, fixation du servomoteur.
 - Choisir comment lever le stylo.
