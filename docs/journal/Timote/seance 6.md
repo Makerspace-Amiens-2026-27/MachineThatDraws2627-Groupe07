@@ -118,10 +118,30 @@ Avec T = P / (2 sin θ) :
 
 **Conclusion :** l'option 3 est viable si les câbles restent **au-dessus de 33°** par rapport à l'horizontale. Il faut donc **éviter le tiers haut du tableau**, ou **alléger la nacelle** (mettre la batterie sur le cadre, imprimer avec un remplissage plus faible).
 
+## Décision : on part sur l'option 3
+
+Après la pesée, le groupe a choisi l'**option 3** : tout regroupé sur la nacelle (moteurs, électronique, stylo). Il y a donc beaucoup de pièces à modéliser.
+
+## Premier assemblage : plaque et support moteur
+
+Le support moteur NEMA 17 centré est sorti de l'impression, avec d'autres pièces imprimées en 3D.
+
+<img src="../../assets/images/timothe-2026-11-20-pieces-imprimees.jpg" alt="Pièces imprimées en 3D : support moteur en U avec ses 4 trous de fixation, bloc percé de 4 trous et petites pièces" width="400">
+
+Ensuite :
+
+1. **Découpe laser** d'une plaque carrée en contreplaqué, avec une ouverture rectangulaire au centre.
+2. **Traçage et perçage** des 4 trous de fixation du support dans la plaque (carré tracé au crayon pour positionner les trous).
+3. **Vissage** du support sur la plaque avec **4 vis M3 de 12 mm** et **4 écrous**.
+
+<img src="../../assets/images/timothe-2026-11-20-plaque-support-moteur.jpg" alt="Plaque en contreplaqué découpée au laser, support moteur vissé dans un coin, emplacement des trous tracé, moteur NEMA 17 à côté" width="400">
+
+<img src="../../assets/images/timothe-2026-11-20-fixation-ecrous.jpg" alt="Dos de la plaque : les 4 écrous M3 qui tiennent le support moteur" width="400">
+
 ## Reste à faire
 
 - Peser la **structure réelle** une fois imprimée et refaire le calcul avec le poids exact.
-- **Choisir l'architecture** (1, 2 ou 3) en équipe, en tenant compte du poids et de la complexité.
-- Vérifier le **support moteur centré** une fois imprimé (centrage Ø 23 mm, entraxe 31 mm) sur un vrai NEMA 17.
+- **Modéliser les pièces** de la nacelle pour l'option 3 (supports des deux moteurs, emplacement de l'électronique et de la batterie, porte-stylo).
+- Monter le **NEMA 17** dans le support (centrage Ø 23 mm, entraxe 31 mm) et vérifier qu'il tient bien.
 - Vérifier la **valeur réelle du couple de maintien** dans la fiche technique de nos moteurs (0,4 N·m est une hypothèse).
 - Définir la **zone de dessin utile** (câbles au-dessus de 33° par rapport à l'horizontale si on part sur l'option 3).
