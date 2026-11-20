@@ -146,6 +146,7 @@ La batterie pèse **180 g** : sans elle, le bloc pèse 824 − 180 = **644 g**, 
 | Avec batterie (824 g) | Ne tient pas : environ 200 g de trop | 425 g en plus maximum ; dessiner à au moins 23 cm sous le haut |
 | Avec câble (644 g) | Ne tient pas : environ 20 g de trop | 605 g en plus maximum ; dessiner à au moins 18 cm sous le haut |
 
+- Conclusion : avec le câble, le bloc passe presque même avec le coefficient de sécurité. Il suffirait de gagner environ 20 g, ou d'incliner un peu le tableau.
 - Point à vérifier : Timothé a pris un couple de 0,4 N·m. Si nos moteurs sont bien des 17HE12-1204S, le couple n'est que de 0,26 N·m (35 % de moins) : il faut vérifier la référence sur l'étiquette des moteurs.
 - Pour le tableau incliné : même calcul en remplaçant P par P × sin β, avec β l'angle entre le tableau et le sol.
 - Hypothèses : les courroies partent de l'axe des moteurs, le bloc ne pivote pas (centre de gravité au milieu), calcul à l'équilibre (sans accélération), poids du câble d'alimentation négligé.
