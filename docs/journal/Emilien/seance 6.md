@@ -76,9 +76,24 @@ grand_parent: Journal de bord
 
 - Le **barillet** est un cylindre monté sur la tête, qui tient plusieurs stylos rangés autour de son axe, comme le barillet d'un revolver.
 - Un **servomoteur** (ou un petit moteur pas à pas pour faire un tour complet) fait tourner le barillet pour amener le stylo de la couleur voulue face au mur.
-- Seul le stylo choisi touche le mur. Une position « vide » entre deux stylos peut servir de position **stylo levé** : un seul moteur choisit la couleur **et** lève le stylo pendant les déplacements.
-- Le **ressort zigzag** étudié à la séance 4 peut servir à plaquer le stylo contre le mur avec une force toujours identique.
+- Seul le stylo choisi touche le mur.
 - Commande : l'ESP32 de la tête reçoit par ESP-NOW les ordres « couleur n° X » et « stylo levé / baissé », et pilote le servomoteur. Les moteurs du mur restent pilotés par la carte principale : **aucun câble ne pend jusqu'à la tête**.
+
+### Discussion du projet avec Adrien Bracq
+
+- On a commencé par se répartir les tâches par interface, à partir de la fonction principale **dessiner** :
+  - **A** : déplacer ;
+  - **B** : tenir le stylo et changer de couleur.
+- Ensuite, deux solutions : soit les **moteurs dans chaque coin** du tableau, soit les **moteurs au milieu**, dans le même bloc que le barillet.
+- On a fait un pour et contre de ces solutions :
+
+| Solution | Pour | Contre |
+|---|---|---|
+| Moteurs dans les coins, filaires | Plus simple | Câblage |
+| Moteurs dans les coins, avec des ESP32 qui font communiquer plusieurs modules | Faisable plus tard, stylé, pratique (pas de câblage gênant) | Plus complexe, poids |
+| Un seul bloc, moteurs au milieu | Un seul bloc, pas de fils, plus d'équilibre | Poids (les moteurs supportent leur propre poids), place |
+
+- Si le poids est trop important avec la dernière solution, on pourrait **incliner le tableau** pour régler ce problème.
 
 ## Pourquoi
 
@@ -91,9 +106,10 @@ grand_parent: Journal de bord
 
 ## Reste à faire
 
+- Calculer combien deux moteurs NEMA 17 peuvent porter en plus de leur propre poids, au point le plus critique.
 - Trancher avec Mathéo entre le barillet et le stylo 4 couleurs, puis l'écrire pour ne plus revenir dessus.
 - Dessiner le barillet dans Onshape : nombre de stylos, diamètre des stylos ou feutres, fixation du servomoteur.
-- Choisir comment lever le stylo : position vide du barillet, came sur servomoteur, ressort zigzag pour l'appui.
+- Choisir comment lever le stylo.
 - Peser la tête complète (batterie, ESP32, servomoteur, barillet, stylos) pour dimensionner les contrepoids et vérifier le couple des moteurs.
 - Définir avec Timothé les points d'accroche des courroies sur la tête et la fixation des moteurs sur le mur.
 - Délimiter la zone de dessin utile en fonction de l'écart D entre les moteurs.
