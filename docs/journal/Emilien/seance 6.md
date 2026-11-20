@@ -151,6 +151,10 @@ La batterie pèse **180 g** : sans elle, le bloc pèse 824 − 180 = **644 g**, 
 - Pour le tableau incliné : même calcul en remplaçant P par P × sin β, avec β l'angle entre le tableau et le sol.
 - Hypothèses : les courroies partent de l'axe des moteurs, le bloc ne pivote pas (centre de gravité au milieu), calcul à l'équilibre (sans accélération), poids du câble d'alimentation négligé.
 
+### Interfaces dans Onshape
+
+- Création des interfaces **A** (déplacer) et **B** (tenir le stylo et changer de couleur) dans Onshape. Je laisse les 2 équipes les remplir avec leurs modules.
+
 ## Pourquoi
 
 - Il fallait comprendre la nouvelle machine avant de reprendre ma partie : le changement de couleur.
@@ -162,6 +166,7 @@ La batterie pèse **180 g** : sans elle, le bloc pèse 824 − 180 = **644 g**, 
 
 ## Reste à faire
 
+- Une fois les modules en place, modifier chaque interface pour gagner du poids.
 - Trancher avec Mathéo entre le barillet et le stylo 4 couleurs, puis l'écrire pour ne plus revenir dessus.
 - Dessiner le barillet dans Onshape : nombre de stylos, diamètre des stylos ou feutres, fixation du servomoteur.
 - Choisir comment lever le stylo.
