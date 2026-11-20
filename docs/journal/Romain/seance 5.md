@@ -5,7 +5,7 @@ parent: Romain
 grand_parent: Journal de bord
 ---
 
-# 2026-11-26: Recherche et changement d'idée
+# 2026-11-13: Recherche et changement d'idée
 
 
 
